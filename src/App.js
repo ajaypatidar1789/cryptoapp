@@ -21,10 +21,10 @@ function App() {
     <BrowserRouter>
       <div className={classes.App}>
         <Header />
-        {/* <Homepage/> */}
+        <Homepage/>
         {/* <CoinPage/> */}
 
-        <Route exact path='/' element={<Homepage/>} />
+        {/* <Route  path='/' element={<Homepage/>} /> */}
         {/* <Route path="/coins/:id" element={CoinPage} exact /> */}
       </div>
     </BrowserRouter>
